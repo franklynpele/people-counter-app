@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>People Counter</title>
+  </head>
+
+  <body>
+    <div class="people-counter">
+      <h1>People Entered:</h1>
+      <h2 id="count-nu">0</h2>
+    </div>
+    <!--Create an increment button with the id=increment-btn-->
+    <button id="increment-btn" onclick="increment()">INCREMENT</button>
+    <!--Create a save button with an ID=save -btn-->
+    <button id="save-btn" onclick="save()">SAVE</button>
+    <!--create a paragraph with the id=save-el to store the previous saved entries-->
+    <div class="entries">
+      <p id="save-el">Previous Entries: </p>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
